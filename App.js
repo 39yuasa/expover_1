@@ -5,9 +5,7 @@ import axios from "axios";
 import DomainURL from "./compornent/api";
 
 export default function App() {
-  const num1 = "新宿";
-  const num2 = "上板橋";
-  // const URL = `https://maps.googleapis.com/maps/api/directions/json?origin=${num1}&destination=${num2}&key=ここにはkeyが入っています`;
+  // const URL = `https://maps.googleapis.com/maps/api/js?key=ここにkeyが入っています&callback=initMap`;googleのAPiです
   const [url, setUrl] = useState(
     "https://www.jma.go.jp/bosai/forecast/data/forecast/270000.json"
   );
