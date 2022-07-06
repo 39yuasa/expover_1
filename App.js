@@ -37,7 +37,7 @@ export default function App() {
   //   const num1 = "東京駅";
   //   const num2 = "新宿駅";
   //   fetch(
-  //     `https://maps.googleapis.com/maps/api/directions/json?origin=${num1}&destination=${num2}&key=AIzaSyCOTvqk7xXppyfmL4tGNrwiq8LmfsxE3_g`
+  //     `https://maps.googleapis.com/maps/api/directions/json?origin=${num1}&destination=${num2}&key=ここにはkeyが入っています`
   //   )
   //     .then((response) => response.json())
   //     .then((data) => {
